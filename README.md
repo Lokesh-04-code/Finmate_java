@@ -45,17 +45,16 @@ A modern personal finance management app built with MERN stack to track income, 
 ### Backend
 | Technology | Purpose |
 |------------|---------|
-| Node.js | Runtime environment |
-| Express.js | Web framework |
+| java | Runtime environment |
+| springboot | Web framework |
 | MongoDB | Database |
 | JWT | Authentication |
 
 ## 🚀 Installation
 
 ### Prerequisites
-- Node.js (v16+)
-- MongoDB (local)
-- npm (v8+) 
+- java
+- MongoDB (online cluster)
 
 ### Setup
 
@@ -63,59 +62,6 @@ A modern personal finance management app built with MERN stack to track income, 
    ```bash
    git clone https://github.com/Lokesh-04-code/FinMate
    
-
-## 📂 Project Structure 
-```
-finmate              # React frontend
-│   ├── node_modules/     # Dependencies
-│   ├── public/           # Static assets
-│   └── src/
-│       ├── assets/       # Images, fonts
-│       ├── components/   # Reusable components
-│       │   ├── Header.jsx
-│       │   ├── MainContent.jsx
-│       │   ├── SideBar.jsx
-│       │   └── TotalContent.jsx
-│       │
-│       ├── Login_signup/ # Auth components
-│       │   ├── Home.jsx
-│       │   ├── Login.jsx
-│       │   └── Signup.jsx
-│       │
-│       ├── Main_Content/ # App sections
-│       │   ├── Budget/
-│       │   ├── Dashboard/
-│       │   ├── Transactions/
-│       │   └── Transaction.jsx
-│       │
-│       ├── App.css       # Main styles
-│       ├── App.jsx       # Root component
-│       ├── index.css     # Global styles
-│       └── main.jsx      # Entry point
-│
-├── backend/              # Node.js backend
-│   ├── .vscode/         # Editor configuration
-│   ├── config/          # Configuration files
-│   ├── controllers/     # Business logic
-│   │   ├── recursiveTransactionController.js
-│   │   ├── studentController.js
-│   │   └── transactionController.js
-│   ├── middleware/      # Middleware
-│   │   ├── errorHandling.js
-│   │   └── validateTokenHandler.js
-│   ├── models/          # Database models
-│   │   ├── recursiveTransactionModel.js
-│   │   ├── studentModel.js
-│   │   └── transactionModel.js
-│   ├── node_modules/    # Dependencies
-│   └── routes/          # API endpoints
-│       ├── recTransactionRoute.js
-│       ├── studentRoutes.js
-│       └── transactionRoute.js
-│
-└── README.md           # Project documentation
-```
-
 
 
 # FinMate Backend API Documentation
